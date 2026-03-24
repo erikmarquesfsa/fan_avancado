@@ -1,0 +1,16 @@
+---------------- Questões --------------------------
+Uma universidade deseja identificar professores que possuem turmas com desempenho acima da média geral da instituição.
+Cada turma pertence a uma disciplina e é ministrada por um professor. As notas dos alunos estão registradas por turma.
+A coordenação quer um relatório que mostre quais professores possuem pelo menos uma turma cuja média de notas é superior à média geral de todas as turmas.
+
+---------------- Perguntas --------------------------
+Liste os professores que possuem pelo menos uma turma com média de notas superior à média geral de todas as turmas.
+Exibir:
+    Nome do professor
+    ID da turma
+    Média da turma
+Requisitos:
+    Usar JOINs
+    Usar subquery correlacionada para calcular a média por turma
+    Comparar com a média geral
+    Ordenar pela média da turma (decrescente)

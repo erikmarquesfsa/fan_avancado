@@ -1,0 +1,17 @@
+---------------- Questões --------------------------
+Uma escola está analisando o desempenho dos alunos nas disciplinas. O objetivo é identificar quais disciplinas possuem média geral acima de um certo valor e organizar essas informações.
+Você recebeu um banco de dados com as notas dos alunos e precisa gerar relatórios para auxiliar a coordenação pedagógica.
+
+
+
+
+---------------- Perguntas --------------------------
+
+A coordenação deseja identificar quais disciplinas possuem média de notas maior que 7.0.
+Você deve:
+    Calcular a média das notas por disciplina
+    Filtrar apenas disciplinas com média maior que 7.0
+Exibir:
+    nome da disciplina
+    média das notas
+    Ordenar os resultados pela média em ordem decrescente

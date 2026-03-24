@@ -1,0 +1,17 @@
+---------------- Questões --------------------------
+Uma empresa quer identificar funcionários que são os mais bem pagos dentro do seu próprio departamento.
+Ou seja, queremos encontrar funcionários cujo salário é igual ao maior salário do departamento ao qual pertencem.
+
+
+---------------- Perguntas --------------------------
+Liste os funcionários que possuem o maior salário dentro do seu departamento.
+Exibir:
+    Nome do funcionário
+    Departamento
+    Salário
+Requisitos:
+    Usar JOIN entre funcionários e departamentos
+    Usar subquery correlacionada
+    A subquery deve comparar o salário do funcionário com o maior salário do seu departamento
+    Ordenar por salário decrescente
+

@@ -1,0 +1,15 @@
+---------------- Questões --------------------------
+
+Uma empresa deseja identificar funcionários que recebem salários acima da média da empresa.
+Você recebeu um banco de dados com informações de funcionários e seus salários.
+
+---------------- Perguntas --------------------------
+A diretoria quer identificar os funcionários que recebem acima da média salarial da empresa.
+Você deve:
+    Calcular a média salarial geral
+Listar:
+    nome do funcionário
+    salário
+    Considerar apenas funcionários com salário maior que a média
+    Ordenar pelo salário em ordem decrescente
+
