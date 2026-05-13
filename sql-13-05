@@ -1,0 +1,80 @@
+-- ============================================
+-- CRIAÇÃO DO BANCO
+-- ============================================
+
+CREATE DATABASE escola;
+USE escola;
+
+-- ============================================
+-- TABELA ALUNO
+-- ============================================
+
+CREATE TABLE aluno (
+    ra INT PRIMARY KEY,
+    nome VARCHAR(100) NOT NULL,
+    nascimento DATE NOT NULL
+);
+
+-- ============================================
+-- TABELA CURSO
+-- ============================================
+
+CREATE TABLE curso (
+    codigo INT PRIMARY KEY,
+    nome VARCHAR(100) NOT NULL,
+    carga_horaria INT NOT NULL,
+    data_inicio DATE NOT NULL,
+    data_termino DATE NOT NULL
+);
+
+-- ============================================
+-- TABELA MATRICULA
+-- ============================================
+
+CREATE TABLE matricula (
+    curso INT,
+    ra INT,
+    data_matricula DATE NOT NULL,
+    valor DECIMAL(10,2) NOT NULL,
+
+    PRIMARY KEY (curso, ra),
+
+    FOREIGN KEY (curso)
+        REFERENCES curso(codigo),
+
+    FOREIGN KEY (ra)
+        REFERENCES aluno(ra)
+);
+
+-- ============================================
+-- INSERTS TABELA ALUNO
+-- ============================================
+
+INSERT INTO aluno (ra, nome, nascimento) VALUES
+(123456, 'Ana', '1972-01-10'),
+(123457, 'Bianca', '1973-02-11'),
+(123458, 'Carla', '1987-12-12'),
+(123459, 'Danilo', '1990-10-02'),
+(123460, 'Eliana', '1987-01-01');
+
+-- ============================================
+-- INSERTS TABELA CURSO
+-- ============================================
+
+INSERT INTO curso (codigo, nome, carga_horaria, data_inicio, data_termino) VALUES
+(1, 'Java', 360, '2007-12-01', '2008-10-10'),
+(2, 'Auto CAD', 60, '2008-01-10', '2008-05-10'),
+(3, 'PHP', 90, '2008-02-15', '2008-07-10'),
+(4, 'Redes', 60, '2008-01-20', '2008-03-20');
+
+-- ============================================
+-- INSERTS TABELA MATRICULA
+-- ============================================
+
+INSERT INTO matricula (curso, ra, data_matricula, valor) VALUES
+(1, 123456, '2007-09-10', 100.00),
+(3, 123456, '2007-10-01', 60.00),
+(1, 123457, '2007-09-01', 100.00),
+(2, 123458, '2008-01-11', 50.00),
+(2, 123459, '2007-07-20', 50.00),
+(1, 123460, '2007-08-10', 80.00);
