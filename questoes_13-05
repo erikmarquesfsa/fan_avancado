@@ -1,0 +1,25 @@
+Listar RA, nome do aluno e nome do curso em que o aluno está matriculado.
+Listar RA, nome do aluno e nome do curso em que o aluno está matriculado, ordenado por nome do curso.
+Exibir o nome de cada curso que teve matrículas e quantos alunos tem matriculados em cada um deles.
+(Obs. Usar apelido para o campo do número de alunos).
+Exibir o nome de todos os cursos e quantos alunos tem matriculados em cada um.
+(Obs. Caso algum curso não tenha matrículas, exibir número de alunos = 0).
+Exibir o nome do curso e o valor total recebido das matrículas em cada um deles.
+Exibir o nome do curso, o valor total recebido das matrículas em cada um deles e o total arrecadado em matrícula pela escola.
+Exibir o valor médio pago em matrícula na escola.
+Chamar a coluna que exibirá a média de valor médio e seu conteúdo deve ser exibido com 2 casas decimais.
+Exibir o nome e o valor médio de matrícula de cada curso.
+Chamar a coluna que exibirá a média de valor médio e seu conteúdo exibido com 2 casas decimais.
+Exibir nome dos cursos que não são VIP (ou seja, que tenha pelo menos 2 alunos) e a quantidade de alunos matriculados em cada um deles.
+Exiba o nome dos cursos com mesma carga horária do curso de auto cad.
+Exiba nome de todos os alunos que fazem aniversário no mesmo mês que Ana.
+Exiba todos os cursos com início em janeiro de 2008 que tenham alunos matriculados.
+Exiba todos os cursos com início em janeiro de 2008 independente de ter alunos matriculados ou não.
+Exiba o nome do aluno e do curso de todos os alunos que fizeram matrícula antes da data de início do curso no qual se matriculou, pois esses vão ganhar um brinde.
+Observe que a Carla se matriculou no curso de auto cad após o início do curso, portanto ela não foi listada e não receberá brinde.
+Listar os cursos que ainda não iniciaram.
+Listar os alunos que fizeram matrícula de Sábado pois eles também receberão brindes.
+Os alunos que fizeram matrícula de Sábado receberão 50% do valor pago na matrícula de volta, para incentivar essa prática de ir se matricular em cursos sempre aos sábados pois é o dia que a escola tem um plantão de matrícula.
+Exibir o nome do aluno e o valor a restituir (apelidar a coluna com esse nome, e exibir o valor com 2 casas decimais).
+Exibir o nome e a idade dos alunos.
+Listar o nome dos cursos e a duração em meses de cada um, sabendo do seguinte:
